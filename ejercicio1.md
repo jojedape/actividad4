@@ -15,3 +15,11 @@ El comando dig realiza búsqueda en los registros de dns a través del nombre de
 
 Efectivamente si introducimos la ip 142.250.184.163 nos lleva a la web de google
 
+-4. ¿Cómo probamos que podemos acceder a un servidor? 
+Con el comando curl podemos interactuar con cualquier sitio web y así comprobar que podemos accder a él.
+Podemos lanzar la siguiente petición que se descargue la página web de google. 
+
+Comprobamos que se ha descargado el código html. Y por lo tanto hemos accedido al servidor. Si le añadieramos al comando –output nombre del archivo nos descargaría el archivo.
+-5. Qué otros comandos te han hecho falta? 
+En principio no he tenido que usar más comando, pero para comprobar directorios y moverme por carpetas he utilizado ls y cd.
+
